@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5f49e78f-afa8-478e-80b1-f47c7b1ac739" name="Default Changelist" comment="collection 集合 练习">
+      <change afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/java_relearn/Day2/Learncollection.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_relearn/Day2/Learncollection.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day1/常识.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/day1/常识.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day2/LearnList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day2/LearnList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day2/Learncollection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day2/Learncollection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_relearn/day2/LearnList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_relearn/day2/LearnList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day2/LearnList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day2/LearnList.java" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,36 +15,6 @@
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/day2/Learncollection.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="532">
-              <caret line="26" selection-start-line="26" selection-end-line="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#218#226#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/day2/LearnList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="316">
-              <caret line="25" column="44" lean-forward="true" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#151#159#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -58,77 +26,19 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/theOneDay/1.md" />
-        <option value="$PROJECT_DIR$/src/Day2/Learncollection.java" />
-        <option value="$PROJECT_DIR$/src/Day2/LearnList.java" />
-        <option value="$PROJECT_DIR$/src/day2/LearnList.java" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="953" />
-    <option name="width" value="974" />
-    <option name="height" value="1087" />
-  </component>
+  <component name="ProjectId" id="1eWgEPt8QEhurwLQ2ILsrXggHQX" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="java_relearn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java_relearn" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java_relearn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java_relearn" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java_relearn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java_relearn" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="day1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java_relearn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java_relearn" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="day2" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+    <property name="settings.editor.selected.configurable" value="leetcode.id" />
   </component>
   <component name="RunManager" selected="Application.LearnList">
     <configuration name="LearnList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -186,101 +96,83 @@
       <updated>1594354530234</updated>
       <workItem from="1594354535723" duration="1157000" />
       <workItem from="1594434964824" duration="411000" />
-      <workItem from="1594436564507" duration="3587000" />
+      <workItem from="1594436564507" duration="4064000" />
+      <workItem from="1594441409036" duration="935000" />
+      <workItem from="1594442656362" duration="477000" />
+      <workItem from="1594443152172" duration="240000" />
+      <workItem from="1594443410939" duration="2244000" />
     </task>
     <servers />
   </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5155000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="953" y="0" width="974" height="1087" extended-state="0" />
-    <editor active="true" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18161926" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info id="Learn" order="7" />
-      <window_info anchor="bottom" id="Messages" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32901832" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info anchor="bottom" id="Version Control" order="11" weight="0.32901832" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" />
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Codota" order="5" weight="0.32932165" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Database" order="7" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
-      <window_info anchor="right" id="Theme Preview" order="9" />
-    </layout>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="collection 集合 练习" />
     <option name="LAST_COMMIT_MESSAGE" value="collection 集合 练习" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Main.java" />
-    <entry file="file://$PROJECT_DIR$/src/theOneDay/2.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/day1/常识.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="459">
-            <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/day2/Learncollection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#218#226#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/production/java_relearn/day2/Learncollection.class">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/day2/LearnList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="25" column="44" lean-forward="true" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#151#159#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+  <component name="WindowStateProjectService">
+    <state x="464" y="352" key="#HTTP_Proxy" timestamp="1594443008108">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="464" y="352" key="#HTTP_Proxy/0.0.1920.1080@0.0.1920.1080" timestamp="1594443008108" />
+    <state x="1322" y="401" key="#Notifications" timestamp="1594442679768">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1322" y="401" key="#Notifications/0.0.1920.1080@0.0.1920.1080" timestamp="1594442679768" />
+    <state x="473" y="375" key="FileChooserDialogImpl" timestamp="1594443019703">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="473" y="375" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1594443019703" />
+    <state width="937" height="293" key="GridCell.Tab.0.bottom" timestamp="1594445663517">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="937" height="293" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1594445663517" />
+    <state width="937" height="293" key="GridCell.Tab.0.center" timestamp="1594445663516">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="937" height="293" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1594445663516" />
+    <state width="937" height="293" key="GridCell.Tab.0.left" timestamp="1594445663516">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="937" height="293" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1594445663516" />
+    <state width="937" height="293" key="GridCell.Tab.0.right" timestamp="1594445663516">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="937" height="293" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1594445663516" />
+    <state x="798" y="282" key="SettingsEditor" timestamp="1594444190108">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="798" y="282" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1594444190108" />
+    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1594444646696">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1594444646696" />
   </component>
 </project>

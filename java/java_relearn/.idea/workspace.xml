@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5f49e78f-afa8-478e-80b1-f47c7b1ac739" name="Default Changelist" comment="collection 集合 练习">
-      <change afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LearnStringBuilfrer/Learn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LearnStringBuilfrer/LearnStringBuffer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_relearn/Day2/Learncollection.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_relearn/Day2/Learncollection.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_relearn/day2/LearnList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_relearn/day2/LearnList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day2/LearnList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day2/LearnList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,18 +34,49 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="leetcode.id" />
   </component>
-  <component name="RunManager" selected="Application.LearnList">
+  <component name="RunManager" selected="Application.LearnStringBuffer">
+    <configuration name="Learn" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LearnStringBuilfrer.Learn" />
+      <module name="java_relearn" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LearnStringBuilfrer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LearnList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day2.LearnList" />
       <module name="java_relearn" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="day2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LearnStringBuffer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LearnStringBuilfrer.LearnStringBuffer" />
+      <module name="java_relearn" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LearnStringBuilfrer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -79,6 +109,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LearnStringBuffer" />
+        <item itemvalue="Application.Learn" />
         <item itemvalue="Application.LearnList" />
         <item itemvalue="Application.Learncollection" />
       </list>
@@ -101,6 +133,13 @@
       <workItem from="1594442656362" duration="477000" />
       <workItem from="1594443152172" duration="240000" />
       <workItem from="1594443410939" duration="2244000" />
+      <workItem from="1594516828288" duration="821000" />
+      <workItem from="1594620153269" duration="422000" />
+      <workItem from="1594822199348" duration="209000" />
+      <workItem from="1594822763815" duration="155000" />
+      <workItem from="1595054837406" duration="2013000" />
+      <workItem from="1595057717580" duration="583000" />
+      <workItem from="1595120266031" duration="6000" />
     </task>
     <servers />
   </component>
@@ -146,29 +185,38 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="1322" y="401" key="#Notifications/0.0.1920.1080@0.0.1920.1080" timestamp="1594442679768" />
+    <state x="778" y="147" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1594517637874">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="778" y="147" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1594517637874" />
     <state x="473" y="375" key="FileChooserDialogImpl" timestamp="1594443019703">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="473" y="375" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1594443019703" />
-    <state width="937" height="293" key="GridCell.Tab.0.bottom" timestamp="1594445663517">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="722" height="274" key="GridCell.Tab.0.bottom" timestamp="1595057270567">
+      <screen x="1920" y="54" width="768" height="1024" />
     </state>
+    <state width="722" height="274" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.54.768.1024@1920.54.768.1024" timestamp="1595057270567" />
     <state width="937" height="293" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1594445663517" />
-    <state width="937" height="293" key="GridCell.Tab.0.center" timestamp="1594445663516">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="722" height="274" key="GridCell.Tab.0.center" timestamp="1595057270567">
+      <screen x="1920" y="54" width="768" height="1024" />
     </state>
+    <state width="722" height="274" key="GridCell.Tab.0.center/0.0.1920.1080/1920.54.768.1024@1920.54.768.1024" timestamp="1595057270567" />
     <state width="937" height="293" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1594445663516" />
-    <state width="937" height="293" key="GridCell.Tab.0.left" timestamp="1594445663516">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="722" height="274" key="GridCell.Tab.0.left" timestamp="1595057270566">
+      <screen x="1920" y="54" width="768" height="1024" />
     </state>
+    <state width="722" height="274" key="GridCell.Tab.0.left/0.0.1920.1080/1920.54.768.1024@1920.54.768.1024" timestamp="1595057270566" />
     <state width="937" height="293" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1594445663516" />
-    <state width="937" height="293" key="GridCell.Tab.0.right" timestamp="1594445663516">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="722" height="274" key="GridCell.Tab.0.right" timestamp="1595057270567">
+      <screen x="1920" y="54" width="768" height="1024" />
     </state>
+    <state width="722" height="274" key="GridCell.Tab.0.right/0.0.1920.1080/1920.54.768.1024@1920.54.768.1024" timestamp="1595057270567" />
     <state width="937" height="293" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1594445663516" />
-    <state x="798" y="282" key="SettingsEditor" timestamp="1594444190108">
+    <state x="798" y="226" key="SettingsEditor" timestamp="1595057811031">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
+    <state x="798" y="226" key="SettingsEditor/0.0.1920.1080/1920.54.1024.768@0.0.1920.1080" timestamp="1595057811031" />
     <state x="798" y="282" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1594444190108" />
     <state x="623" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1594444646696">
       <screen x="0" y="0" width="1920" height="1080" />

@@ -114,6 +114,8 @@ public class Main {
             public void actionPerformed(ActionEvent e) {
                 // 此处处于 事件调度线程（所有监听器的回调都在 事件调度线程 中回调）、
                 System.out.println("登录按钮被点击");
+                System.out.println(usernameField.getText());
+                System.out.println(passwordField.getPassword());
             }
         });
 

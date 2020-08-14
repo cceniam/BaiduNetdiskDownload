@@ -1,5 +1,7 @@
 package com.windows;
 
+import com.login.Login;
+
 import javax.swing.*;
 import javax.swing.event.ChangeEvent;
 import javax.swing.event.ChangeListener;
@@ -9,7 +11,8 @@ import java.awt.event.ActionListener;
 import java.awt.event.ItemEvent;
 import java.awt.event.ItemListener;
 
-public class Main {
+public class Login_win {
+
 
     public static void main(String[] args) {
         // 此处处于 主线程，提交任务到 事件调度线程 创建窗口
@@ -19,6 +22,7 @@ public class Main {
                     public void run() {
                         // 此处处于 事件调度线程
                         createGUI();
+
                     }
                 }
         );
@@ -115,7 +119,12 @@ public class Main {
                 // 此处处于 事件调度线程（所有监听器的回调都在 事件调度线程 中回调）、
                 System.out.println("登录按钮被点击");
                 System.out.println(usernameField.getText());
-                System.out.println(passwordField.getPassword());
+                System.out.println(String.valueOf(passwordField.getPassword()));
+                String name = usernameField.getText();
+                String passward = String.valueOf(passwordField.getPassword());
+
+                Login login = new Login("teacher",name,passward);
+                login.login(name,passward,"mydata");
             }
         });
 

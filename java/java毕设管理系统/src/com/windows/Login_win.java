@@ -12,6 +12,7 @@ import java.awt.event.ItemEvent;
 import java.awt.event.ItemListener;
 
 public class Login_win {
+    static String occ;
 
 
     public static void main(String[] args) {
@@ -85,7 +86,8 @@ public class Login_win {
             @Override
             public void actionPerformed(ActionEvent e) {
                 if(radioBtn01.isSelected()){
-                    System.out.println("1被选中");
+                    System.out.println("教师被选中");
+                     occ= "teacher";
                 }
             }
         });
@@ -93,7 +95,8 @@ public class Login_win {
             @Override
             public void actionPerformed(ActionEvent e) {
                 if(radioBtn02.isSelected()){
-                    System.out.println("2被选中");
+                    System.out.println("学生被选中");
+                    occ = "student";
                 }
             }
         });
@@ -101,7 +104,8 @@ public class Login_win {
             @Override
             public void actionPerformed(ActionEvent e) {
                 if(radioBtn03.isSelected()){
-                    System.out.println("3被选中");
+                    System.out.println("学科办公室被选中");
+                    occ = "discipline_office";
                 }
             }
         });
@@ -123,7 +127,7 @@ public class Login_win {
                 String name = usernameField.getText();
                 String passward = String.valueOf(passwordField.getPassword());
 
-                Login login = new Login("teacher",name,passward);
+                Login login = new Login(occ,name,passward);
                 login.login(name,passward,"mydata");
             }
         });

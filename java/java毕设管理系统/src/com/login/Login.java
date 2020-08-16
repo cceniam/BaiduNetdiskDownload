@@ -14,12 +14,14 @@ public class Login {
     public String occupation;
     public String login_name;
     private String login_passward;
+    public Connection connect;
     private  boolean sta;
 
     public Login(String occupation, String login_name, String login_passward) {
         this.occupation = occupation;
         this.login_name = login_name;
         this.login_passward = login_passward;
+
     }
 
     public String getOccupation() {
@@ -50,7 +52,7 @@ public class Login {
 //        加载驱动
         Sqllogin.lodingDriver();
 //        连接数据库
-        Connection connect = Sqllogin.loginSql(DBName);
+        connect = Sqllogin.loginSql(DBName);
         Statement stmt = null;
         try {
             stmt = connect.createStatement();

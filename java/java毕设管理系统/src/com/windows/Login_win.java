@@ -1,6 +1,7 @@
 package com.windows;
 
 import com.login.Login;
+import com.personal_information_interface.Student;
 
 import javax.swing.*;
 import javax.swing.event.ChangeEvent;
@@ -10,6 +11,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.ItemEvent;
 import java.awt.event.ItemListener;
+import java.net.URL;
 
 public class Login_win {
     static String occ = "teacher";
@@ -135,6 +137,9 @@ public class Login_win {
                 }else{
                     panel.removeAll();
                     jf.repaint();
+                    Student student = new Student();
+                    student.getInformation(login.connect,login);
+                    System.out.println(student.toString());
                 }
             }
         });
@@ -155,6 +160,8 @@ public class Login_win {
 
         panel.add(usernameField);
         panel.add(passwordField);
+
+
 
         jf.add(panel);
         jf.setVisible(true);

@@ -130,8 +130,11 @@ public class Login_win {
                 Login login = new Login(occ,name,passward);
                 boolean tem = login.login(name,passward,"mydata");
                 System.out.println(tem);
-                if(tem){
+                if(!tem){
                     JOptionPane.showMessageDialog(new JPanel(), "请输入并检查账户及密码是否正确，遗失密码请联系管理员或相关老师进行重置", "错误",JOptionPane.WARNING_MESSAGE);
+                }else{
+                    panel.removeAll();
+                    jf.repaint();
                 }
             }
         });
@@ -155,6 +158,9 @@ public class Login_win {
 
         jf.add(panel);
         jf.setVisible(true);
+
+
+
     }
 
 }

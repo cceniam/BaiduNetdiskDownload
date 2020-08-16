@@ -63,8 +63,14 @@ public class Login {
                 status = "off";
             }
             ResultSet rs = stmt.executeQuery("select * from  ".concat(occupation).concat(" where ").concat(status).concat("_id=\"").concat(name).concat("\""));
-            sta = rs.getString(status.concat("_passward")).equals(passward);
-            System.out.println(rs.getString(status.concat("_passward")).equals(passward));
+            if(rs.next()){
+                System.out.println("查找到对应用户");
+                sta = rs.getString(status.concat("_passward")).equals(passward);
+                System.out.println(rs.getString(status.concat("_passward")).equals(passward));
+            }else{
+                System.out.println("未查找到对应用户");
+            }
+
         } catch (Exception e) {
             System.out.print("get data error!");
             e.printStackTrace();

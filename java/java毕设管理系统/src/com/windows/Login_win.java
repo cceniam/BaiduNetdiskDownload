@@ -12,7 +12,7 @@ import java.awt.event.ItemEvent;
 import java.awt.event.ItemListener;
 
 public class Login_win {
-    static String occ;
+    static String occ = "teacher";
 
 
     public static void main(String[] args) {
@@ -128,7 +128,11 @@ public class Login_win {
                 String passward = String.valueOf(passwordField.getPassword());
 
                 Login login = new Login(occ,name,passward);
-                login.login(name,passward,"mydata");
+                boolean tem = login.login(name,passward,"mydata");
+                System.out.println(tem);
+                if(tem){
+                    JOptionPane.showMessageDialog(new JPanel(), "请输入并检查账户及密码是否正确，遗失密码请联系管理员或相关老师进行重置", "错误",JOptionPane.WARNING_MESSAGE);
+                }
             }
         });
 

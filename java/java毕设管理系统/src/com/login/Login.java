@@ -14,6 +14,7 @@ public class Login {
     public String occupation;
     public String login_name;
     private String login_passward;
+    private  boolean sta;
 
     public Login(String occupation, String login_name, String login_passward) {
         this.occupation = occupation;
@@ -45,7 +46,7 @@ public class Login {
         this.login_passward = login_passward;
     }
 
-    public void login(String name, String passward, String DBName){
+    public boolean login(String name, String passward, String DBName){
 //        加载驱动
         Sqllogin.lodingDriver();
 //        连接数据库
@@ -62,13 +63,13 @@ public class Login {
                 status = "off";
             }
             ResultSet rs = stmt.executeQuery("select * from  ".concat(occupation).concat(" where ").concat(status).concat("_id=\"").concat(name).concat("\""));
-            //user 为你表的名称，可以在MySQL命令行用show tables；显示
-            while (rs.next()) {
-                System.out.println(rs.getString(status.concat("_passward")).equals(passward));
-            }
+            sta = rs.getString(status.concat("_passward")).equals(passward);
+            System.out.println(rs.getString(status.concat("_passward")).equals(passward));
         } catch (Exception e) {
             System.out.print("get data error!");
             e.printStackTrace();
+        }finally {
+            return sta;
         }
     }
 

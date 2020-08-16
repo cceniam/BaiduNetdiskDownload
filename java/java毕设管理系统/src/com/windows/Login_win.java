@@ -140,6 +140,7 @@ public class Login_win {
                     Student student = new Student();
                     student.getInformation(login.connect,login);
                     System.out.println(student.toString());
+                    student.modifyInfoName(login.connect,login,"余者");
                 }
             }
         });
